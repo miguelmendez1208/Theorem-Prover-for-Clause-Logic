@@ -1,25 +1,25 @@
-Determinism ~FreeWill
-Morality HowPeopleTreatEachOther
-Morality AgreedUponRules
-HumansAreSocial HumansLiveInSociety
-Individuals DontWantToDie
+~Determinism ~FreeWill
+~Morality HowPeopleTreatEachOther
+~Morality AgreedUponRules
+~HumansAreSocial HumansLiveInSociety
+~Individuals DontWantToDie
 MoralsAreTaught
-HumansLiveInSociety MoralsAreTaught
-MoralsAreTaught Morality
-DontWantToDie AgreedUponRules
-NeedToReproduce DontWantToDie
-Pre-existingReality Individuals
-Pre-existingReality Determinism ~FreeWill
-Determinism CauseAndEffect
-Catholic HumanSuperiority Morality
-Catholic HumanSuperiority
+~HumansLiveInSociety MoralsAreTaught
+~MoralsAreTaught Morality
+~DontWantToDie AgreedUponRules
+~NeedToReproduce DontWantToDie
+~Pre-existingReality Individuals
+~Pre-existingReality ~Determinism ~FreeWill
+~Determinism CauseAndEffect
+~Catholic ~HumanSuperiority Morality
+~Catholic HumanSuperiority
 HumansAreSmarterThanAnimals
-Catholic ~Determinism FreeWill
-HumansLiveInSociety HumansShouldBeMoral
-Individuals DontWantToDie AgreedUponRules
-HumansShouldBeMoral PropensityToBeMoral
-PropensityToBeMoral Morality
-Morality HumansChooseToBeMoral
-HumansChooseToBeMoral HumansMakeAChoice
-HumansMakeAChoice FreeWill
-~FreeWill Determinism
+~Catholic Determinism FreeWill
+~HumansLiveInSociety HumansShouldBeMoral
+~Individuals ~DontWantToDie AgreedUponRules
+~HumansShouldBeMoral PropensityToBeMoral
+~PropensityToBeMoral Morality
+~Morality HumansChooseToBeMoral
+~HumansChooseToBeMoral HumansMakeAChoice
+~HumansMakeAChoice FreeWill
+~FreeWill

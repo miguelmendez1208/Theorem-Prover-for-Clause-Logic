@@ -1,1 +1,19 @@
-WhenItRains TheGrassIsGreen
+~OnTuesday Raining
+~Raining GrassIsGreen
+OnTuesday
+~GrassIsGreen
+GrassIsGreen
+
+
+//comments
+OnTuesday Raining
+~OnTuesday Raining
+
+OnTuesday it rains
+OnTuesday implies raining:
+~OnTuesday Raining
+$$$$ OnTuesday |  Raining  |  ~OnTuesday OR Raining
+       T            T           T
+       T            F           F
+       F            T           T
+       F            F           T
