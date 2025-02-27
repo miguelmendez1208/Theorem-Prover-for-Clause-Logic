@@ -96,9 +96,9 @@ def main():
                 clj += 1
             cli += 1
         print_and_log("Not Valid")
-    
+
     except Exception as e:
-        print_and_log(f"An error occurred while processing the file: {e}")        
+        print_and_log(f"An error occurred while processing the file: {e}")
         write_output_to_file("output.txt")
         sys.exit(1)
 
@@ -208,4 +208,3 @@ def Diff(li1, li2):
 
 if __name__ == "__main__":
     main()
-

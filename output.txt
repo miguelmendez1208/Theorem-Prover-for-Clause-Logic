@@ -3,21 +3,41 @@
 3. Morality AgreedUponRules { }
 4. HumansAreSocial HumansLiveInSociety { }
 5. Individuals DontWantToDie { }
-6. DontWantToDie AgreedUponRules { }
-7. Catholic HumanSuperiority Morality { }
-8. HumansAreSmarterThanAnimals { }
-9. Catholic ~Determinism FreeWill { }
-10. HumansLiveInSociety HumansShouldBeMoral { }
-11. HumansShouldBeMoral PropensityMoral { }
-12. PropensityMoral Morality { }
-13. Morality HumansChoose { }
-14. HumansChoose FreeWill { }
-15. Morality { }
-16. ~FreeWill { }
-17. Determinism HumansChoose { 14, 1 }
-18. Catholic ~Determinism { 16, 9 }
-19. HumansChoose { 16, 14 }
-20. Catholic FreeWill HumansChoose { 17, 9 }
-21. Catholic ~FreeWill { 19, 1 }
-22. Catholic HumansChoose { 19, 17 }
-Not Valid
+6. MoralsAreTaught { }
+7. HumansLiveInSociety MoralsAreTaught { }
+8. MoralsAreTaught Morality { }
+9. DontWantToDie AgreedUponRules { }
+10. NeedToReproduce DontWantToDie { }
+11. Pre-existingReality Individuals { }
+12. Pre-existingReality Determinism ~FreeWill { }
+13. Determinism CauseAndEffect { }
+14. Catholic HumanSuperiority Morality { }
+15. Catholic HumanSuperiority { }
+16. HumansAreSmarterThanAnimals { }
+17. Catholic ~Determinism FreeWill { }
+18. HumansLiveInSociety HumansShouldBeMoral { }
+19. Individuals DontWantToDie AgreedUponRules { }
+20. HumansShouldBeMoral PropensityToBeMoral { }
+21. PropensityToBeMoral Morality { }
+22. Morality HumansChooseToBeMoral { }
+23. HumansChooseToBeMoral HumansMakeAChoice { }
+24. HumansMakeAChoice FreeWill { }
+25. FreeWill { }
+26. ~Determinism { }
+27. Catholic CauseAndEffect FreeWill { 17, 13 }
+28. Determinism HumansMakeAChoice { 24, 1 }
+29. Determinism HumansMakeAChoice Pre-existingReality { 24, 12 }
+30. Determinism { 25, 1 }
+31. Determinism Pre-existingReality { 25, 12 }
+32. ~FreeWill { 26, 1 }
+33. Pre-existingReality ~FreeWill { 26, 12 }
+34. CauseAndEffect { 26, 13 }
+35. Catholic CauseAndEffect Determinism { 27, 1 }
+36. Catholic CauseAndEffect Determinism Pre-existingReality { 27, 12 }
+37. Catholic FreeWill HumansMakeAChoice { 29, 17 }
+38. HumansMakeAChoice { 29, 26 }
+39. Catholic FreeWill HumansMakeAChoice Pre-existingReality { 31, 17 }
+40. HumansMakeAChoice Pre-existingReality { 31, 26 }
+41. Catholic FreeWill { 33, 17 }
+42. Contradiction { 33, 26 }
+Valid

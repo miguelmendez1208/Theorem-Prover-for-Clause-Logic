@@ -3,13 +3,23 @@ Morality HowPeopleTreatEachOther
 Morality AgreedUponRules
 HumansAreSocial HumansLiveInSociety
 Individuals DontWantToDie
+MoralsAreTaught
+HumansLiveInSociety MoralsAreTaught
+MoralsAreTaught Morality
 DontWantToDie AgreedUponRules
+NeedToReproduce DontWantToDie
+Pre-existingReality Individuals
+Pre-existingReality Determinism ~FreeWill
+Determinism CauseAndEffect
 Catholic HumanSuperiority Morality
+Catholic HumanSuperiority
 HumansAreSmarterThanAnimals
 Catholic ~Determinism FreeWill
 HumansLiveInSociety HumansShouldBeMoral
-HumansShouldBeMoral PropensityMoral
-PropensityMoral Morality
-Morality HumansChoose
-HumansChoose FreeWill
-~Morality FreeWill
+Individuals DontWantToDie AgreedUponRules
+HumansShouldBeMoral PropensityToBeMoral
+PropensityToBeMoral Morality
+Morality HumansChooseToBeMoral
+HumansChooseToBeMoral HumansMakeAChoice
+HumansMakeAChoice FreeWill
+~FreeWill Determinism
