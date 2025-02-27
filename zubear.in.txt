@@ -1,0 +1,15 @@
+Determinism ~FreeWill
+Morality HowPeopleTreatEachOther
+Morality AgreedUponRules
+HumansAreSocial HumansLiveInSociety
+Individuals DontWantToDie
+DontWantToDie AgreedUponRules
+Catholic HumanSuperiority Morality
+HumansAreSmarterThanAnimals
+Catholic ~Determinism FreeWill
+HumansLiveInSociety HumansShouldBeMoral
+HumansShouldBeMoral PropensityMoral
+PropensityMoral Morality
+Morality HumansChoose
+HumansChoose FreeWill
+~Morality FreeWill
